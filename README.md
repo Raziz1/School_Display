@@ -1,6 +1,9 @@
 # School_Display
 Display school updates using processing
 
+<p> 
+  <img align='Right' src="https://github.com/Raziz1/School_Display/blob/main/images/Capture.PNG? raw=true">
+</p>
 
 ## Overview
 The following project is a school display that displays the weather, snow day predictor, school news, school tweets, as well as the world news. This project scrapes raw information from the websites. This can result in slower performance or simply returning the wrong tags. It is recommended that when possible use proper APIs.
