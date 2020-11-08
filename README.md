@@ -17,6 +17,12 @@ The following websites are being scrapped:
 * [BBC](https://www.bbc.com/news/world)
 
 ## Other Notes 📝
-
+If you decide to use this there are a couple things you will have to change:
+* Some of the titles & logos based on the school
+* Twitter API
+  - Twitter Username
+  - Twitter API keys
+* CBC weather location
+* School website
 
 
