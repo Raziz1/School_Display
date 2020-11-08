@@ -2,7 +2,7 @@
 Display school updates using processing
 
 <p> 
-  <img align='Right' src="https://github.com/Raziz1/School_Display/blob/main/images/Capture.PNG? raw=true">
+  <img width = 400 height=225 align='Right' src="https://github.com/Raziz1/School_Display/blob/main/images/Capture.PNG? raw=true">
 </p>
 
 ## Overview
