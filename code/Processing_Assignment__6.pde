@@ -1,5 +1,3 @@
-//(Rahim Aziz)(06/11/2019)(Processing Assignment 6)
-
 //Helpful links_______________________________________________________
 //https://forum.processing.org/one/topic/load-image-from-web-13-7-2012.html (Pulling Images)
 //https://discourse.processing.org/t/parsing-html-with-jsoup/9577 (Jsoup HTML parsing)
