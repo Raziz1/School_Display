@@ -117,7 +117,7 @@ float move=0; //Twitter boxes movement
 float []y= new float [20]; //Y-value of twitter texts and boxes
 int direction=0; //Direction of scrolling
 PImage [] logo= new PImage [20];
-String userName ="@SouthCarletonHS";
+String userName ="@XXXXXXXXXXXX"; //Twitter account username
 int numTweets = 100;
 
 //Tweet info_________________________________
@@ -165,11 +165,11 @@ void setup() {
 void draw() {
   //Twitter Setup________________________________________________________________________
   ConfigurationBuilder cb = new ConfigurationBuilder();
-
-  cb.setOAuthConsumerKey("FiUxZypKDZZXetjAQsjqWnMQ8");
-  cb.setOAuthConsumerSecret("8C47xs1q30sKdXpSDYZr2027EgAgQjPxtMZt2zzuip5AVNknne");
-  cb.setOAuthAccessToken("1195431683471876099-7v14ZQJdhBfZzWlbI0Cv5xLAuLx2vW");
-  cb.setOAuthAccessTokenSecret("hUvrajX3lFUnk21BvUVx1u76PWiYENxp3CIIf1XAjxCBl");
+  
+  cb.setOAuthConsumerKey("XXXXXXXXXXXXX");
+  cb.setOAuthConsumerSecret("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+  cb.setOAuthAccessToken("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+  cb.setOAuthAccessTokenSecret("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
   cb.setTweetModeExtended(true);
 
   Twitter twitter = new TwitterFactory(cb.build()).getInstance();
@@ -186,7 +186,7 @@ void draw() {
     }
 
     //SNOW DAY PREDICTOR HTML LOAD_______________________________
-    ln2=loadStrings("https://www.snowdaycalculator.com/prediction.php?zipcode=K2S1Y9&snowdays=1&extra=-0.4&"); //In url link the amount of snowdays needs to be updated because of the formula the dude uses
+    ln2=loadStrings("https://www.snowdaycalculator.com/prediction.php?zipcode=M4B1B3&snowdays=1&extra=-0.4&"); //In url link the amount of snowdays needs to be updated because of the formula the dude uses
     String pg2= "";
     for (int i=2300; i<2800; i++) {
       //print(ln2.length);
